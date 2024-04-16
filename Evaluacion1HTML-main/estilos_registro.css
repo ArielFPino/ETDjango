@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Cambiado de 'left' a 'center' */
+}
+
+form {
+  margin: 0 auto; /* Margen automático a izquierda y derecha para centrar */
+  width: 50%; /* Anchura del formulario */
+  max-width: 500px; /* Máxima anchura del formulario */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    background-color: aliceblue;
+    border: 2px solid cornsilk; /* Añadido 'solid' */
+    color: #283629;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b5cab6;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right; /* Cambiado de 'center' a 'right' */
+}
+
+.form-txt a {
+    color: black; /* Cambiado de 'aquamarine' a 'black' */
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    background-color: cadetblue;
+    box-shadow: 0 0 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chartreuse;
+}
+
+@media (max-width: 991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input {
+        padding: 15px;
+    }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Alinear el contenido en columna */
+}
+
+main {
+  flex: 1; /* Para que el contenido principal ocupe todo el espacio disponible */
+}
+
+footer {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto blanco */
+    text-align: center;
+    padding: 10px 0; /* Espaciado interno superior e inferior reducido */
+    position: fixed; /* Fija el pie de página */
+    bottom: 0; /* Lo coloca al fondo de la ventana del navegador */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+  }

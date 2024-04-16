@@ -1,0 +1,15 @@
+footer {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto blanco */
+    text-align: center;
+    padding: 3px 0; /* Espaciado interno superior e inferior */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    position: fixed; /* Fija el pie de página */
+    bottom: 0; /* Lo sitúa en la parte inferior */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+footer p {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    margin-bottom: 0; /* Elimina el margen inferior del párrafo */
+}
