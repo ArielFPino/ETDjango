@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto e-Commerce Mangas</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos_contacto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Añadido 'fixed-top' -->
+    <a class="navbar-brand" href="#">e-Commerce Mangas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Evaluacion1.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro.html">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="cart">
+            <i class="fas fa-shopping-cart"></i> Carrito <span class="badge badge-pill badge-light" id="cart-count">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <form>
+
+      <h2>Contacto</h2>
+
+      <div class="input-group">
+
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+        <input class="btn" type="submit" value="Enviar">
+
+      </div>
+
+    </form>
+  </div>
+ 
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Tienda e-Commerce Mangas - Todos los derechos reservados</p>
+  </footer>
+
+</html>

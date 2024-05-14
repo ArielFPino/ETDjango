@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro e-Commerce Mangas</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <h6 style="font-size: 24px; text-align: center; text-decoration: underline;">Registro de nuevo usuario</h6>
+    <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Añadido 'fixed-top' -->
+    <a class="navbar-brand" href="#">e-Commerce Mangas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Evaluacion1.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro.html">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="cart">
+            <i class="fas fa-shopping-cart"></i> Carrito <span class="badge badge-pill badge-light" id="cart-count">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <form>
+        <div class="mb-3">
+          <label for="rut" class="form-label">Rut</label>
+          <input type="text" class="form-control" id="rut">
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido">
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="correo">
+        </div>
+        <div class="mb-3">
+          <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+          <input type="date" class="form-control" id="fechaNacimiento">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Telefono</label>
+          <input type="tel" class="form-control" id="phone">
+        </div>
+        <div class="mb-3">
+          <label for="comuna" class="form-label">Comuna</label>
+          <input type="comuna" class="form-control" id="comuna">
+        </div>
+        <div class="mb-3">
+          <label for="niveleducacion" class="form-label">Nivel de educacion</label>
+          <select name="seleccione grado">
+            <option>Basica</option>
+            <option>Media</option>
+            <option>Superior</option>
+          </select>
+        </div>
+        <input class="btn" type="submit" value="registrar">
+
+    </form>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Tienda e-Commerce Mangas - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

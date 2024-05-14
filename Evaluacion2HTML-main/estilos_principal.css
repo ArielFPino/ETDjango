@@ -1,0 +1,25 @@
+/* EDITAR CARRUSEL */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .carousel-img {
+    height: 300px; /* Ajusta este valor según tus necesidades */
+    width: auto;
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    position: absolute; /* Posición absoluta */
+    bottom: 0; /* Alinear el texto en la parte inferior */
+    width: 60%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+  }
+  /* Estilos para centrar el texto y el fondo del carrusel */
+.carousel-caption {
+    text-align: center; /* Centrar el texto */
+    background-position: center; /* Centrar el fondo */
+  }
